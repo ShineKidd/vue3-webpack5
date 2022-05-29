@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "target": "ESNEXT",
+    "module": "ESNext",
+    "allowJs": false,
+    "declaration": false,
+    "isolatedModules": true,
+    "strict": true,
+    "moduleResolution": "node",
+    "baseUrl": "./",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "lib": ["DOM","DOM.Iterable","ESNext","ScriptHost"],
+    "forceConsistentCasingInFileNames": true,
+    "jsx": "preserve",
+    "paths": {
+      "@/*": ["./src/*"]
+    },
+    "types": ["webpack-env"]
+  },
+  "include": [
+    "src",
+    "typings"
+  ]
+}

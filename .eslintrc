@@ -1,0 +1,13 @@
+{
+  "root": true,
+  "extends": ["@shinekidd"],
+  "ignorePatterns": [
+    "dist",
+    "webpack.config.js",
+    "typings"
+  ],
+  "rules": {
+    "no-undef": "off",
+    "vue/multi-word-component-names": "off"
+  }
+}
